@@ -219,3 +219,16 @@
         \  Talking to {{ state_attr('sensor.fritz_box_6591_cable_kdg_call_monitor_fritzbox_callmonitor',\
         \ 'with_name') }} ({{ state_attr('sensor.phone', 'with') }})\n{% endif %}"
   mode: single
+- id: '1612655621849'
+  alias: Git - automatic commit and push of config
+  description: ''
+  trigger:
+  - platform: time
+    at: '22:00:00'
+  condition: []
+  action:
+  - service: hassio.addon_stdin
+    data:
+      addon: a0d7b954_ssh
+      input: /config/automations/git_push_auto.sh
+  mode: single
