@@ -16,7 +16,7 @@
   description: Manuelles einschalten des Lichts im Wohnzimmer (einfacher Druck auf
     Schalter links oben)
   trigger:
-  - device_id: 4fdb633208d18f26663b049098c311ae
+  - device_id: 55a523725e38ea18dce62d926333fa77
     domain: deconz
     platform: device
     type: remote_button_short_press
