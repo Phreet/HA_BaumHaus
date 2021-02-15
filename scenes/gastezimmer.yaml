@@ -11,7 +11,6 @@
       state: 'on'
       brightness_pct: 100
 
-################################################################################
 - id: '1611597511851'
   name: Licht - Gästezimmer - Gedimmt
   icon: mdi:lightbulb-group
@@ -20,7 +19,6 @@
       state: 'on'
       brightness_pct: 30
 
-################################################################################
 - id: '1611597512581'
   name: Licht - Gästezimmer - Nacht
   icon: mdi:lightbulb-group

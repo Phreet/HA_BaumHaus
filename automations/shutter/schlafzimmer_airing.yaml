@@ -1,5 +1,5 @@
 - id: '1611944618678'
-  alias: Schlafzimmer - Garden shutter - Close when airing
+  alias: Schlafzimmer - Jalousie Garten - Schließen nach Lüften
   description: When airing the Schlafzimmer by opening garden window, also control
     shutter accordingly (when opened, close it again)
   trigger:
@@ -27,7 +27,7 @@
   mode: single
 
 - id: '1611943950866'
-  alias: Schlafzimmer - Garden shutter - Open when airing
+  alias: Schlafzimmer - Jalousie Garten - Öffnen zum Lüften
   description: When airing the Schlafzimmer by opening garden window, also control
     shutter accordingly (when closed, open to gap position)
   trigger:

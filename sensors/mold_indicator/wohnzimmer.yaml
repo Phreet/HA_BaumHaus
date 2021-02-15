@@ -10,11 +10,13 @@
       schimmelrisikoklasse_wohnzimmer:
         friendly_name: "Schimmelrisikoklasse - Wohnzimmer"
         value_template: >-
-          {% if states('sensor.schimmelrisiko_wohnzimmer')|float > 65%}
+          {% set indikator = states('sensor.schimmelrisiko_wohnzimmer') | float %}
+          
+          {% if 65 <= indikator < 70 %}
             Normal
-          {% elif states('sensor.schimmelrisiko_wohnzimmer')|float > 70 %}
+          {% elif 70 <= indikator < 80 %}
             Erhöht
-          {% elif states('sensor.schimmelrisiko_wohnzimmer')|float > 80 %}
+          {% elif indikator >= 80 %}
             Kritisch
           {% else %}
             Gering

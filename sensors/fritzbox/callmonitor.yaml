@@ -1,8 +1,11 @@
 ################################################################################
-#### FRITZ!Box Call Monitor
+### FRITZ!Box Call Monitor                                                   ###
+### https://www.home-assistant.io/integrations/fritzbox_callmonitor/         ###
+### Activate on FRITZ!Box with #96*5* or deactivate with #96*4*              ###
 ################################################################################
+
   - platform: fritzbox_callmonitor
-    name: FritzBox Callmonitor
+    name: FRITZ!Fon C5
     username: !secret fritzbox_user
     password: !secret fritzbox_password
     phonebook: 0

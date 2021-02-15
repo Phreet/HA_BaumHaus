@@ -10,11 +10,13 @@
       schimmelrisikoklasse_esszimmer:
         friendly_name: "Schimmelrisikoklasse - Esszimmer"
         value_template: >-
-          {% if states('sensor.schimmelrisiko_esszimmer')|float > 65%}
+          {% set indikator = states('sensor.schimmelrisiko_esszimmer') | float %}
+          
+          {% if 65 <= indikator < 70 %}
             Normal
-          {% elif states('sensor.schimmelrisiko_esszimmer')|float > 70 %}
+          {% elif 70 <= indikator < 80 %}
             Erhöht
-          {% elif states('sensor.schimmelrisiko_esszimmer')|float > 80 %}
+          {% elif indikator >= 80 %}
             Kritisch
           {% else %}
             Gering

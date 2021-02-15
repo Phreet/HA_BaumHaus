@@ -21,7 +21,6 @@
       brightness_pct: 60
       color_temp: 447
 
-################################################################################
 - id: '1612195454030'
   name: Licht - Eingang - Warm
   icon: mdi:lightbulb-group
@@ -39,7 +38,6 @@
       brightness_pct: 100
       color_temp: 346
 
-################################################################################
 - id: '1612195521047'
   name: Licht - Eingang - Neutral
   icon: mdi:lightbulb-group
@@ -57,7 +55,6 @@
       brightness_pct: 100
       color_temp: 233
 
-################################################################################
 - id: '1612195553484'
   name: Licht - Eingang - Kalt
   icon: mdi:lightbulb-group
@@ -75,7 +72,6 @@
       brightness_pct: 100
       color_temp: 153
 
-################################################################################
 - id: '1612195956393'
   name: Licht - Eingang - Ambiente
   icon: mdi:lightbulb-group
@@ -93,7 +89,6 @@
       brightness_pct: 65
       color_temp: 178
 
-################################################################################
 - id: '1612195991207'
   name: Licht - Eingang - Nacht
   icon: mdi:lightbulb-group
@@ -109,7 +104,6 @@
       brightness_pct: 15
       color_temp: 405
 
-################################################################################
 - id: '1612196741113'
   name: Licht - Eingang - Gedimmt
   icon: mdi:lightbulb-group
@@ -127,7 +121,6 @@
       brightness_pct: 55
       color_temp: 278
 
-################################################################################
 - id: '1612196768074'
   name: Licht - Eingang - Dekoration
   icon: mdi:lightbulb-group

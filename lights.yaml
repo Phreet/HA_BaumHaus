@@ -1,3 +1,15 @@
+################################################################################
+### Light groups for BaumHaus                                                ###
+### Light bulbs: Philips Hue White Ambiance GU10 (Bluetooth),                ###
+###              Philips Hue White E27 (Bluetooth), Philips Hue Go (Gen2),   ###
+###              Philips Hue Ambiance E14 (Bluetooth), Philips Hue Play      ###
+### Grouping by individual lampshade, by room and by level                   ###
+################################################################################
+
+################################################################################
+### Light groups: Obergeschoß                                                ###
+################################################################################
+
   - platform: group
     name: Schlafzimmer - Deckenlicht
     entities:
@@ -13,17 +25,14 @@
       - light.hue_play_2
 
   - platform: group
-    name: Wohnzimmer - Stehlampe
+    name: Obergeschoß
     entities:
-      - light.color_wohnzimmer_b
-      - light.color_wohnzimmer_w
+      - light.schlafzimmer_deckenlicht
+      - light.arbeitszimmer_hue_play
 
-  - platform: group
-    name: Wohnzimmer
-    entities:
-      - light.wohnzimmer_stehlampe
-      - light.hue_go
-      - light.white_wohnzimmer_decke
+################################################################################
+### Light groups: Durchgang / Aufgang                                        ###
+################################################################################
 
   - platform: group
     name: Treppenhaus - Strahler Oben
@@ -67,6 +76,23 @@
     entities:
       - light.treppenhaus
       - light.eingang
+
+################################################################################
+### Light groups: Erdgeschoß                                                 ###
+################################################################################
+
+  - platform: group
+    name: Wohnzimmer - Stehlampe
+    entities:
+      - light.color_wohnzimmer_b
+      - light.color_wohnzimmer_w
+
+  - platform: group
+    name: Wohnzimmer
+    entities:
+      - light.wohnzimmer_stehlampe
+      - light.hue_go
+      - light.white_wohnzimmer_decke
 
   - platform: group
     name: Küche - Deckenlicht
@@ -115,8 +141,14 @@
       - light.wohnzimmer
       - light.white_gastezimmer
 
+################################################################################
+### Light groups: BaumHaus                                                   ###
+################################################################################
+
   - platform: group
-    name: Obergeschoß
+    name: Baumhaus
     entities:
-      - light.schlafzimmer_deckenlicht
-      - light.arbeitszimmer_hue_play
+      - light.erdgeschoss
+      - light.obergeschoss
+      - light.durchgang
+      - light.treppenhaus

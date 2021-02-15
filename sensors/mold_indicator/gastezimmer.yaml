@@ -10,11 +10,13 @@
       schimmelrisikoklasse_gastezimmer:
         friendly_name: "Schimmelrisikoklasse - Gästezimmer"
         value_template: >-
-          {% if states('sensor.schimmelrisiko_gastezimmer')|float > 65%}
+          {% set indikator = states('sensor.schimmelrisiko_gastezimmer') | float %}
+          
+          {% if 65 <= indikator < 70 %}
             Normal
-          {% elif states('sensor.schimmelrisiko_gastezimmer')|float > 70 %}
+          {% elif 70 <= indikator < 80 %}
             Erhöht
-          {% elif states('sensor.schimmelrisiko_gastezimmer')|float > 80 %}
+          {% elif indikator >= 80 %}
             Kritisch
           {% else %}
             Gering

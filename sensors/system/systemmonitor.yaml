@@ -1,7 +1,8 @@
 ################################################################################
-#### System monitor for general statistics
-#### Raspberry Pi and OS attributes
+### System monitor for general statistics                                    ###
+### Raspberry Pi and HomeAssistant OS attributes                             ###
 ################################################################################
+
   - platform: systemmonitor
     resources:
       - type: disk_use_percent
@@ -20,7 +21,7 @@
         arg: eth0
 
 ################################################################################
-#### Raspberry Pi CPU clock
+### Raspberry Pi CPU clock                                                   ###
 ################################################################################
   - platform: command_line
     name: Processor clock

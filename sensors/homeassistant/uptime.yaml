@@ -1,5 +1,7 @@
 ################################################################################
-#### Time since the last HomeAssistant core restart
+### HomeAssistant uptime sensor (time since last HomeAssistant core restart) ###
+### https://www.home-assistant.io/integrations/uptime/                       ###
 ################################################################################
+
   - platform: uptime
     name: HomeAssistant Core - Time Online

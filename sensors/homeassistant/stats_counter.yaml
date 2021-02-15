@@ -1,6 +1,8 @@
-  #================================
-  #=== Count the HomeAssistant sensors
-  #================================
+################################################################################
+### HomeAssistant states counter                                             ###
+### Count the defined states (e.g. total sensors, scripts, automations)      ###
+################################################################################
+
   - platform: template
     sensors:
       count_sensors:

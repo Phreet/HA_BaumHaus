@@ -1,5 +1,8 @@
 ################################################################################
-#### FRITZ!Box Call Monitor
+### FRITZ!Box Call Monitor                                                   ###
+### https://www.home-assistant.io/integrations/fritzbox_netmonitor/          ###
 ################################################################################
+
   - platform: fritzbox_netmonitor
-    name: FritzBox Netmonitor
+    name: FRITZ!Box Netmonitor
+    host: !secret fritzbox_ip

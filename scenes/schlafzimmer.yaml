@@ -20,7 +20,6 @@
       state: 'on'
       brightness_pct: 100
 
-################################################################################
 - id: '1611584785390'
   name: Licht - Schlafzimmer - Nacht
   icon: mdi:lightbulb-group
@@ -35,7 +34,6 @@
     light.white_schlafzimmer_4:
       state: 'off'
 
-################################################################################
 - id: '1611585087053'
   name: Licht - Schlafzimmer - Dunkel
   icon: mdi:lightbulb-group
@@ -53,7 +51,6 @@
       state: 'on'
       brightness_pct: 1
 
-################################################################################
 - id: '1611585820681'
   name: Licht - Schlafzimmer - Ambiente
   icon: mdi:lightbulb-group
@@ -69,7 +66,6 @@
       state: 'on'
       brightness_pct: 75
 
-################################################################################
 - id: '1611585873259'
   name: Licht - Schlafzimmer - Gedimmt
   icon: mdi:lightbulb-group
