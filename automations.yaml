@@ -258,3 +258,17 @@
       transition: 1
     entity_id: scene.hue_schlafzimmer_nacht
   mode: single
+- id: '1613513334468'
+  alias: Shopping - Zeige Einkaufsliste
+  description: ''
+  trigger: []
+  condition: []
+  action:
+  - service: notify.mobile_app_sm_g955f
+    data:
+      title: Denk an die Einkäufe
+      message: Gelange hier zur Einkaufsliste
+      data:
+        clickAction: /shopping-list
+        url: /shopping-list
+  mode: single
