@@ -1,8 +1,12 @@
 ################################################################################
-#### Speedtest.net - Last Update State
+### Speedtest.net integration - Last update information                      ###
+### https://www.home-assistant.io/integrations/speedtestdotnet               ###
 ################################################################################
+
   - platform: template
     sensors:
       speedtest_last_updated:
         friendly_name: "Speedtest last updated"
-        value_template: "{{ as_timestamp(states.sensor.speedtest_download.last_updated) }}"
+        unique_id: "speedtest_last_updated"
+        value_template: "{{ as_timestamp(states.sensor.speedtest_download.last_updated) | timestamp_local }}"
+        device_class: timestamp

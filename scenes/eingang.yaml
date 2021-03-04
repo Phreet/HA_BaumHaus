@@ -4,39 +4,22 @@
 ### min_mireds: 153 - max_mireds: 454                                        ###
 ################################################################################
 
-- id: '1612195427849'
-  name: Licht - Eingang - Entspannen
-  icon: mdi:lightbulb-group
-  entities:
-    light.ambiance_eingang_vorne:
-      state: 'on'
-      brightness_pct: 60
-      color_temp: 447
-    light.ambiance_eingang_mitte:
-      state: 'on'
-      brightness_pct: 60
-      color_temp: 443
-    light.ambiance_eingang_hinten:
-      state: 'on'
-      brightness_pct: 60
-      color_temp: 447
-
-- id: '1612195454030'
-  name: Licht - Eingang - Warm
+- id: '1612195553484'
+  name: Licht - Eingang - Kalt
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_eingang_vorne:
       state: 'on'
       brightness_pct: 100
-      color_temp: 346
+      color_temp: 153
     light.ambiance_eingang_mitte:
       state: 'on'
       brightness_pct: 100
-      color_temp: 346
+      color_temp: 153
     light.ambiance_eingang_hinten:
       state: 'on'
       brightness_pct: 100
-      color_temp: 346
+      color_temp: 153
 
 - id: '1612195521047'
   name: Licht - Eingang - Neutral
@@ -55,22 +38,39 @@
       brightness_pct: 100
       color_temp: 233
 
-- id: '1612195553484'
-  name: Licht - Eingang - Kalt
+- id: '1612195454030'
+  name: Licht - Eingang - Warm
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_eingang_vorne:
       state: 'on'
       brightness_pct: 100
-      color_temp: 153
+      color_temp: 346
     light.ambiance_eingang_mitte:
       state: 'on'
       brightness_pct: 100
-      color_temp: 153
+      color_temp: 346
     light.ambiance_eingang_hinten:
       state: 'on'
       brightness_pct: 100
-      color_temp: 153
+      color_temp: 346
+
+- id: '1612195427849'
+  name: Licht - Eingang - Entspannt
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_eingang_vorne:
+      state: 'on'
+      brightness_pct: 60
+      color_temp: 447
+    light.ambiance_eingang_mitte:
+      state: 'on'
+      brightness_pct: 60
+      color_temp: 443
+    light.ambiance_eingang_hinten:
+      state: 'on'
+      brightness_pct: 60
+      color_temp: 447
 
 - id: '1612195956393'
   name: Licht - Eingang - Ambiente
@@ -89,20 +89,18 @@
       brightness_pct: 65
       color_temp: 178
 
-- id: '1612195991207'
-  name: Licht - Eingang - Nacht
+- id: '1612196768074'
+  name: Licht - Eingang - Dekoration
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_eingang_vorne:
-      state: 'on'
-      brightness_pct: 15
-      color_temp: 405
+     state: 'off'
     light.ambiance_eingang_mitte:
-      state: 'off'
-    light.ambiance_eingang_hinten:
       state: 'on'
-      brightness_pct: 15
-      color_temp: 405
+      brightness_pct: 75
+      color_temp: 415
+    light.ambiance_eingang_hinten:
+      state: 'off'
 
 - id: '1612196741113'
   name: Licht - Eingang - Gedimmt
@@ -121,15 +119,17 @@
       brightness_pct: 55
       color_temp: 278
 
-- id: '1612196768074'
-  name: Licht - Eingang - Dekoration
+- id: '1612195991207'
+  name: Licht - Eingang - Nacht
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_eingang_vorne:
-     state: 'off'
-    light.ambiance_eingang_mitte:
       state: 'on'
-      brightness_pct: 75
-      color_temp: 415
-    light.ambiance_eingang_hinten:
+      brightness_pct: 15
+      color_temp: 405
+    light.ambiance_eingang_mitte:
       state: 'off'
+    light.ambiance_eingang_hinten:
+      state: 'on'
+      brightness_pct: 15
+      color_temp: 405

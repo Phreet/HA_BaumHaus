@@ -1,0 +1,8 @@
+################################################################################
+### Season identification of current astronomical or meteorological season   ###
+### Spring, Summer, Autumn, Winter                                           ###
+### https://www.home-assistant.io/integrations/season/                       ###
+################################################################################
+
+  - platform: season
+    type: meteorological

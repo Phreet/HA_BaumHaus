@@ -1463,7 +1463,7 @@
     "node-red-contrib-deconz": {
         "name": "node-red-contrib-deconz",
         "version": "1.2.0",
-        "local": false,
+        "local": true,
         "nodes": {
             "in": {
                 "name": "in",
@@ -1538,7 +1538,7 @@
     "node-red-contrib-shelly": {
         "name": "node-red-contrib-shelly",
         "version": "1.5.3",
-        "local": false,
+        "local": true,
         "nodes": {
             "shelly": {
                 "name": "shelly",

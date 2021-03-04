@@ -77,6 +77,13 @@
       - light.treppenhaus
       - light.eingang
 
+  - platform: group
+    name: Zugang
+    entities:
+      - light.treppenhaus
+      - light.eingang
+      - light.flur
+
 ################################################################################
 ### Light groups: Erdgeschoß                                                 ###
 ################################################################################

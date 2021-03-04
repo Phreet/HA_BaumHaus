@@ -16,6 +16,28 @@ favicon:
 stream:
 
 #====================================
+#=== Yahoo Finance (stock market)
+#====================================
+yahoofinance:
+  show_trending_icon: true
+  decimal_places: 2
+  scan_interval:
+    hours: 0.25
+  symbols:
+    - symbol: LHA.DE
+      target_currency: EUR
+    - symbol: TL0.DE
+      target_currency: EUR
+    - symbol: BTC-USD
+    - symbol: BTC-EUR
+      target_currency: EUR
+    - symbol: ETH-USD
+    - symbol: ETH-EUR
+      target_currency: EUR
+    - symbol: DOGE-USD
+
+
+#====================================
 #=== Luftdaten: monitor air quality
 #====================================
 luftdaten:

@@ -1,6 +1,6 @@
 ################################################################################
-### Light scenes based on Philips Hue                                        ###
-### Room: Schlafzimmer                                                       ###
+### Light scenes for Schlafzimmer                                            ###
+### Light bulbs: Philips Hue White E27 (Bluetooth)                           ###
 ################################################################################
 
 - id: '1611583050207'
@@ -19,37 +19,6 @@
     light.white_schlafzimmer_4:
       state: 'on'
       brightness_pct: 100
-
-- id: '1611584785390'
-  name: Licht - Schlafzimmer - Nacht
-  icon: mdi:lightbulb-group
-  entities:
-    light.white_schlafzimmer_1:
-      state: 'off'
-    light.white_schlafzimmer_2:
-      state: 'on'
-      brightness_pct: 1
-    light.white_schlafzimmer_3:
-      state: 'off'
-    light.white_schlafzimmer_4:
-      state: 'off'
-
-- id: '1611585087053'
-  name: Licht - Schlafzimmer - Dunkel
-  icon: mdi:lightbulb-group
-  entities:
-    light.white_schlafzimmer_1:
-      state: 'on'
-      brightness_pct: 1
-    light.white_schlafzimmer_2:
-      state: 'on'
-      brightness_pct: 1
-    light.white_schlafzimmer_3:
-      state: 'on'
-      brightness_pct: 1
-    light.white_schlafzimmer_4:
-      state: 'on'
-      brightness_pct: 1
 
 - id: '1611585820681'
   name: Licht - Schlafzimmer - Ambiente
@@ -82,3 +51,34 @@
     light.white_schlafzimmer_4:
       state: 'on'
       brightness_pct: 50
+
+- id: '1611585087053'
+  name: Licht - Schlafzimmer - Dunkel
+  icon: mdi:lightbulb-group
+  entities:
+    light.white_schlafzimmer_1:
+      state: 'on'
+      brightness_pct: 1
+    light.white_schlafzimmer_2:
+      state: 'on'
+      brightness_pct: 1
+    light.white_schlafzimmer_3:
+      state: 'on'
+      brightness_pct: 1
+    light.white_schlafzimmer_4:
+      state: 'on'
+      brightness_pct: 1
+
+- id: '1611584785390'
+  name: Licht - Schlafzimmer - Nacht
+  icon: mdi:lightbulb-group
+  entities:
+    light.white_schlafzimmer_1:
+      state: 'off'
+    light.white_schlafzimmer_2:
+      state: 'on'
+      brightness_pct: 1
+    light.white_schlafzimmer_3:
+      state: 'off'
+    light.white_schlafzimmer_4:
+      state: 'off'

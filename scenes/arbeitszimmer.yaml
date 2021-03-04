@@ -1,0 +1,70 @@
+################################################################################
+### Light scenes for Arbeitszimmer                                           ###
+### Light bulbs: Philips Hue Play (Bluetooth)                                ###
+### min_mireds: 153 - max_mireds: 500                                        ###
+################################################################################
+
+################################################################################
+### Farbtemperaturen                                                         ###
+################################################################################
+
+- id: '1614296604577'
+  name: Licht - Arbeitszimmer - Kalt
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 153
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 153
+
+- id: '1614296572433'
+  name: Licht - Arbeitszimmer - Neutral
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 233
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 233
+
+- id: '1614296520177'
+  name: Licht - Arbeitszimmer - Warm
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 346
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 346
+
+- id: '1614296128110'
+  name: Licht - Arbeitszimmer - Entspannt
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 447
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      color_temp: 447
+
+
+################################################################################
+### Farbszenen (bunte Lichter)                                               ###
+################################################################################
+
+################################################################################
+### Lichtszenen                                                              ###
+################################################################################

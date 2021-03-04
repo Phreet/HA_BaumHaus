@@ -1,5 +1,5 @@
   - platform: mold_indicator
-    name: Schimmelrisiko - Schlafzimmer
+    name: 'Schimmelrisiko - Schlafzimmer'
     indoor_temp_sensor: sensor.multi_schlafzimmer_temperature
     indoor_humidity_sensor: sensor.multi_schlafzimmer_humidity
     outdoor_temp_sensor: sensor.openweathermap_temperature
@@ -8,7 +8,7 @@
   - platform: template
     sensors:
       schimmelrisikoklasse_schlafzimmer:
-        friendly_name: "Schimmelrisikoklasse - Schlafzimmer"
+        friendly_name: 'Schimmelrisikoklasse - Schlafzimmer'
         value_template: >-
           {% set indikator = states('sensor.schimmelrisiko_schlafzimmer') | float %}
           

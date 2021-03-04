@@ -1,6 +1,7 @@
 ################################################################################
 ### System monitor for general statistics                                    ###
 ### Raspberry Pi and HomeAssistant OS attributes                             ###
+### https://www.home-assistant.io/integrations/systemmonitor/                ###
 ################################################################################
 
   - platform: systemmonitor
@@ -20,9 +21,11 @@
       - type: network_out
         arg: eth0
 
+
 ################################################################################
 ### Raspberry Pi CPU clock                                                   ###
 ################################################################################
+
   - platform: command_line
     name: Processor clock
     command: "/opt/vc/bin/vcgencmd measure_clock arm"
