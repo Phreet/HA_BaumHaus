@@ -912,8 +912,8 @@
     },
     "node-red-contrib-sunevents": {
         "name": "node-red-contrib-sunevents",
-        "version": "3.0.0",
-        "local": false,
+        "version": "3.0.2",
+        "local": true,
         "nodes": {
             "node-red-contrib-sunevents": {
                 "name": "node-red-contrib-sunevents",
@@ -921,9 +921,9 @@
                     "sun events"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-contrib-sunevents",
-                "file": "/opt/node_modules/node-red-contrib-sunevents/lib/sun-events-node.js"
+                "file": "/config/node-red/node_modules/node-red-contrib-sunevents/lib/sun-events-node.js"
             }
         }
     },
@@ -1197,8 +1197,8 @@
     },
     "node-red-node-base64": {
         "name": "node-red-node-base64",
-        "version": "0.2.1",
-        "local": false,
+        "version": "0.3.0",
+        "local": true,
         "nodes": {
             "base64": {
                 "name": "base64",
@@ -1206,16 +1206,16 @@
                     "base64"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-base64",
-                "file": "/opt/node_modules/node-red-node-base64/70-base64.js"
+                "file": "/config/node-red/node_modules/node-red-node-base64/70-base64.js"
             }
         }
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.8.3",
-        "local": false,
+        "version": "1.9.0",
+        "local": true,
         "nodes": {
             "email": {
                 "name": "email",
@@ -1225,16 +1225,16 @@
                     "e-mail mta"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-email",
-                "file": "/opt/node_modules/node-red-node-email/61-email.js"
+                "file": "/config/node-red/node_modules/node-red-node-email/61-email.js"
             }
         }
     },
     "node-red-node-feedparser": {
         "name": "node-red-node-feedparser",
-        "version": "0.1.16",
-        "local": false,
+        "version": "0.2.0",
+        "local": true,
         "nodes": {
             "feedparse": {
                 "name": "feedparse",
@@ -1242,9 +1242,9 @@
                     "feedparse"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-feedparser",
-                "file": "/opt/node_modules/node-red-node-feedparser/32-feedparse.js"
+                "file": "/config/node-red/node_modules/node-red-node-feedparser/32-feedparse.js"
             }
         }
     },
@@ -1304,8 +1304,8 @@
     },
     "node-red-node-ping": {
         "name": "node-red-node-ping",
-        "version": "0.2.2",
-        "local": false,
+        "version": "0.3.0",
+        "local": true,
         "nodes": {
             "ping": {
                 "name": "ping",
@@ -1313,16 +1313,16 @@
                     "ping"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-ping",
-                "file": "/opt/node_modules/node-red-node-ping/88-ping.js"
+                "file": "/config/node-red/node_modules/node-red-node-ping/88-ping.js"
             }
         }
     },
     "node-red-node-random": {
         "name": "node-red-node-random",
-        "version": "0.3.1",
-        "local": false,
+        "version": "0.4.0",
+        "local": true,
         "nodes": {
             "random": {
                 "name": "random",
@@ -1330,16 +1330,16 @@
                     "random"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-random",
-                "file": "/opt/node_modules/node-red-node-random/random.js"
+                "file": "/config/node-red/node_modules/node-red-node-random/random.js"
             }
         }
     },
     "node-red-node-rbe": {
         "name": "node-red-node-rbe",
-        "version": "0.2.9",
-        "local": false,
+        "version": "0.4.0",
+        "local": true,
         "nodes": {
             "rbe": {
                 "name": "rbe",
@@ -1347,9 +1347,9 @@
                     "rbe"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-rbe",
-                "file": "/opt/node_modules/node-red-node-rbe/rbe.js"
+                "file": "/config/node-red/node_modules/node-red-node-rbe/rbe.js"
             }
         }
     },
@@ -1426,8 +1426,8 @@
     },
     "node-red-node-tail": {
         "name": "node-red-node-tail",
-        "version": "0.1.1",
-        "local": false,
+        "version": "0.2.0",
+        "local": true,
         "nodes": {
             "tail": {
                 "name": "tail",
@@ -1435,16 +1435,16 @@
                     "tail"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-tail",
-                "file": "/opt/node_modules/node-red-node-tail/28-tail.js"
+                "file": "/config/node-red/node_modules/node-red-node-tail/28-tail.js"
             }
         }
     },
     "node-red-node-twitter": {
         "name": "node-red-node-twitter",
-        "version": "1.1.7",
-        "local": false,
+        "version": "1.2.0",
+        "local": true,
         "nodes": {
             "twitter": {
                 "name": "twitter",
@@ -1454,15 +1454,15 @@
                     "twitter out"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-twitter",
-                "file": "/opt/node_modules/node-red-node-twitter/27-twitter.js"
+                "file": "/config/node-red/node_modules/node-red-node-twitter/27-twitter.js"
             }
         }
     },
     "node-red-contrib-deconz": {
         "name": "node-red-contrib-deconz",
-        "version": "1.2.0",
+        "version": "1.3.2",
         "local": true,
         "nodes": {
             "in": {
