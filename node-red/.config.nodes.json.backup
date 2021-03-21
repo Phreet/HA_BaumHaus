@@ -1426,8 +1426,8 @@
     },
     "node-red-node-tail": {
         "name": "node-red-node-tail",
-        "version": "0.1.1",
-        "local": false,
+        "version": "0.2.0",
+        "local": true,
         "nodes": {
             "tail": {
                 "name": "tail",
@@ -1435,17 +1435,16 @@
                     "tail"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-tail",
-                "file": "/opt/node_modules/node-red-node-tail/28-tail.js"
+                "file": "/config/node-red/node_modules/node-red-node-tail/28-tail.js"
             }
-        },
-        "pending_version": "0.2.0"
+        }
     },
     "node-red-node-twitter": {
         "name": "node-red-node-twitter",
-        "version": "1.1.7",
-        "local": false,
+        "version": "1.2.0",
+        "local": true,
         "nodes": {
             "twitter": {
                 "name": "twitter",
@@ -1455,12 +1454,11 @@
                     "twitter out"
                 ],
                 "enabled": true,
-                "local": false,
+                "local": true,
                 "module": "node-red-node-twitter",
-                "file": "/opt/node_modules/node-red-node-twitter/27-twitter.js"
+                "file": "/config/node-red/node_modules/node-red-node-twitter/27-twitter.js"
             }
-        },
-        "pending_version": "1.2.0"
+        }
     },
     "node-red-contrib-deconz": {
         "name": "node-red-contrib-deconz",
