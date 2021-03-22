@@ -925,7 +925,8 @@
                 "module": "node-red-contrib-sunevents",
                 "file": "/config/node-red/node_modules/node-red-contrib-sunevents/lib/sun-events-node.js"
             }
-        }
+        },
+        "pending_version": "3.0.3"
     },
     "node-red-contrib-time-range-switch": {
         "name": "node-red-contrib-time-range-switch",
@@ -1193,7 +1194,8 @@
                 "module": "node-red-dashboard",
                 "file": "/opt/node_modules/node-red-dashboard/nodes/ui_spacer.js"
             }
-        }
+        },
+        "pending_version": "2.28.2"
     },
     "node-red-node-base64": {
         "name": "node-red-node-base64",
@@ -1372,7 +1374,7 @@
     },
     "node-red-node-serialport": {
         "name": "node-red-node-serialport",
-        "version": "0.11.1",
+        "version": "0.13.0",
         "local": false,
         "nodes": {
             "serialport": {
