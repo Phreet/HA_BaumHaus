@@ -61,15 +61,15 @@
   entities:
     light.ambiance_eingang_vorne:
       state: 'on'
-      brightness_pct: 60
+      brightness_pct: 100
       color_temp: 447
     light.ambiance_eingang_mitte:
       state: 'on'
-      brightness_pct: 60
-      color_temp: 443
+      brightness_pct: 100
+      color_temp: 447
     light.ambiance_eingang_hinten:
       state: 'on'
-      brightness_pct: 60
+      brightness_pct: 100
       color_temp: 447
 
 - id: '1612195956393'
@@ -79,7 +79,7 @@
     light.ambiance_eingang_vorne:
       state: 'on'
       brightness_pct: 65
-      color_temp: 389
+      color_temp: 390
     light.ambiance_eingang_mitte:
       state: 'on'
       brightness_pct: 65
@@ -98,7 +98,7 @@
     light.ambiance_eingang_mitte:
       state: 'on'
       brightness_pct: 75
-      color_temp: 415
+      color_temp: 421
     light.ambiance_eingang_hinten:
       state: 'off'
 

@@ -16,10 +16,12 @@
       state: 'on'
       brightness_pct: 95
       color_temp: 153
+      effect: stop
     light.hue_play_2:
       state: 'on'
       brightness_pct: 95
       color_temp: 153
+      effect: stop
 
 - id: '1614296572433'
   name: Licht - Arbeitszimmer - Neutral
@@ -29,10 +31,12 @@
       state: 'on'
       brightness_pct: 95
       color_temp: 233
+      effect: stop
     light.hue_play_2:
       state: 'on'
       brightness_pct: 95
       color_temp: 233
+      effect: stop
 
 - id: '1614296520177'
   name: Licht - Arbeitszimmer - Warm
@@ -42,10 +46,12 @@
       state: 'on'
       brightness_pct: 95
       color_temp: 346
+      effect: stop
     light.hue_play_2:
       state: 'on'
       brightness_pct: 95
       color_temp: 346
+      effect: stop
 
 - id: '1614296128110'
   name: Licht - Arbeitszimmer - Entspannt
@@ -55,16 +61,104 @@
       state: 'on'
       brightness_pct: 95
       color_temp: 447
+      effect: stop
     light.hue_play_2:
       state: 'on'
       brightness_pct: 95
       color_temp: 447
+      effect: stop
 
 
 ################################################################################
 ### Farbszenen (bunte Lichter)                                               ###
 ################################################################################
 
+- id: '1617408344459'
+  name: Licht - Arbeitszimmer - Blau
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 63
+      - 155
+      - 255
+      effect: stop
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 76
+      - 244
+      - 255
+      effect: stop
+
+- id: '1617408430837'
+  name: Licht - Arbeitszimmer - Rot
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 255
+      - 95
+      - 246
+      effect: stop
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 255
+      - 43
+      - 65
+      effect: stop
+
+- id: '1617408496217'
+  name: Licht - Arbeitszimmer - Gelb
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 81
+      - 252
+      - 255
+      effect: stop
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 255
+      - 192
+      - 45
+      effect: stop
+
+- id: '1617408713144'
+  name: Licht - Arbeitszimmer - Grün
+  icon: mdi:lightbulb-group
+  entities:
+    light.hue_play_1:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 240
+      - 255
+      - 63
+      effect: stop
+    light.hue_play_2:
+      state: 'on'
+      brightness_pct: 95
+      rgb_color:
+      - 81
+      - 255
+      - 88
+      effect: stop
+
+
 ################################################################################
 ### Lichtszenen                                                              ###
 ################################################################################
+

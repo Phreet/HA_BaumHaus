@@ -94,17 +94,75 @@
   entities:
     light.ambiance_treppenhaus_oo:
       state: 'on'
-      brightness: 204
+      brightness_pct: 80
       color_temp: 390
     light.ambiance_treppenhaus_ou:
       state: 'on'
-      brightness: 101
+      brightness_pct: 40
       color_temp: 230
     light.ambiance_treppenhaus_uo:
       state: 'on'
-      brightness: 204
+      brightness_pct: 80
       color_temp: 390
     light.ambiance_treppenhaus_uu:
       state: 'on'
-      brightness: 101
+      brightness_pct: 40
       color_temp: 230
+
+- id: '1617323973972'
+  name: Treppenhaus - Dekoration
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_treppenhaus_oo:
+      state: 'on'
+      brightness_pct: 75
+      color_temp: 421
+    light.ambiance_treppenhaus_ou:
+      state: 'off'
+    light.ambiance_treppenhaus_uo:
+      state: 'off'
+    light.ambiance_treppenhaus_uu:
+      state: 'on'
+      brightness_pct: 75
+      color_temp: 421
+
+- id: '1617323182057'
+  name: Treppenhaus - Gedimmt
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_treppenhaus_oo:
+      state: 'on'
+      brightness_pct: 55
+      color_temp: 278
+    light.ambiance_treppenhaus_ou:
+      state: 'on'
+      brightness_pct: 55
+      color_temp: 278
+    light.ambiance_treppenhaus_uo:
+      state: 'on'
+      brightness_pct: 55
+      color_temp: 278
+    light.ambiance_treppenhaus_uu:
+      state: 'on'
+      brightness_pct: 55
+      color_temp: 278
+
+- id: '1617323135444'
+  name: Treppenhaus - Nacht
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_treppenhaus_oo:
+      state: 'on'
+      brightness_pct: 20
+      color_temp: 405
+    light.ambiance_treppenhaus_ou:
+      state: 'off'
+    light.ambiance_treppenhaus_uo:
+      state: 'on'
+      brightness_pct: 20
+      color_temp: 405
+    light.ambiance_treppenhaus_uu:
+      state: 'off'
+
+
+

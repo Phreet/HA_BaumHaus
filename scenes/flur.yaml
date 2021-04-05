@@ -49,11 +49,11 @@
   entities:
     light.ambiance_flur_vorne:
       state: 'on'
-      brightness_pct: 60
+      brightness_pct: 100
       color_temp: 447
     light.ambiance_flur_hinten:
       state: 'on'
-      brightness_pct: 60
+      brightness_pct: 100
       color_temp: 447
 
 - id: '1612194807824'
@@ -67,7 +67,7 @@
     light.ambiance_flur_hinten:
       state: 'on'
       brightness_pct: 65
-      color_temp: 337
+      color_temp: 390
 
 - id: '1612195156302'
   name: Licht - Flur - Dekoration
@@ -76,7 +76,7 @@
     light.ambiance_flur_vorne:
       state: 'on'
       brightness_pct: 75
-      color_temp: 415
+      color_temp: 421
     light.ambiance_flur_hinten:
       state: 'off'
 
