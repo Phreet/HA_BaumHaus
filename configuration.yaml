@@ -10,6 +10,7 @@ favicon:
   title: BaumAssistant
   icon_path: /local/favicons/
 
+
 #====================================
 #=== Proxy live streams
 #====================================
@@ -122,4 +123,27 @@ scene manual: !include_dir_merge_list scenes/
 automation: !include automations.yaml
 # Automations: created manually in yaml
 automation manual: !include_dir_merge_list automations/
+
+
+#====================================
+#=== iOS push templates
+#====================================
+ios:
+  push:
+    categories:
+      - name: Reminder Müllabfuhr
+        identifier: 'mullabfuhr'
+        actions:
+          - identifier: srhh_rausgestellt
+            title: 'Erledigt'
+            activationMode: 'foreground'
+            authenticationRequired: false
+            destructive: true
+            behavior: 'default'
+          - identifier: srhh_3h_reminder
+            title: 'Später erinnern'
+            activationMode: 'foreground'
+            authenticationRequired: false
+            destructive: false
+            behavior: 'default'
 

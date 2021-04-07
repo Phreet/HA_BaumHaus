@@ -15,20 +15,20 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 153
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 153
       effect: stop
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 70
+      brightness: 179
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 153
       effect: stop
 
@@ -38,20 +38,20 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 233
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 233
       effect: stop
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 70
+      brightness: 179
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 233
       effect: stop
 
@@ -61,20 +61,20 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 346
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 346
       effect: stop
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 346
       effect: stop
 
@@ -84,20 +84,20 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 447
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 447
       effect: stop
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 25
+      brightness: 64
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       color_temp: 447
       effect: stop
 
@@ -112,7 +112,7 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 95
+      brightness: 240
       rgb_color:
       - 255
       - 164
@@ -120,7 +120,7 @@
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 75
+      brightness: 190
       rgb_color:
       - 190
       - 134
@@ -130,7 +130,7 @@
       state: 'off'
     light.hue_go:
       state: 'on'
-      brightness_pct: 90
+      brightness: 230
       rgb_color:
       - 62
       - 92
@@ -145,7 +145,7 @@
       state: 'off'
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 90
+      brightness: 230
       rgb_color:
       - 255
       - 183
@@ -153,10 +153,10 @@
       effect: stop
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 40
+      brightness: 102
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       rgb_color:
       - 102
       - 192
@@ -169,7 +169,7 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 80
+      brightness: 204
       rgb_color:
       - 198
       - 85
@@ -177,7 +177,7 @@
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 80
+      brightness: 204
       rgb_color:
       - 229
       - 152
@@ -187,7 +187,7 @@
       state: 'off'
     light.hue_go:
       state: 'on'
-      brightness_pct: 95
+      brightness: 240
       rgb_color:
       - 255
       - 45
@@ -200,17 +200,17 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 90
+      brightness: 230
       effect: colorloop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 90
+      brightness: 230
       effect: colorloop
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go:
       state: 'on'
-      brightness_pct: 90
+      brightness: 230
       effect: colorloop
 
 ################################################################################
@@ -223,7 +223,7 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 30
+      brightness: 90
       rgb_color:
       - 255
       - 204
@@ -233,7 +233,7 @@
       state: 'off'
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 30
+      brightness: 90
     light.hue_go:
       state: 'off'
 
@@ -247,7 +247,7 @@
       state: 'off'
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 1
+      brightness: 3
     light.hue_go:
       state: 'off'
 
@@ -261,7 +261,7 @@
       state: 'off'
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
     light.hue_go:
       state: 'off'
 
@@ -271,7 +271,7 @@
   entities:
     light.color_wohnzimmer_b:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       rgb_color:
       - 255
       - 217
@@ -279,7 +279,7 @@
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       rgb_color:
       - 255
       - 217
@@ -302,7 +302,7 @@
       state: 'off'
     light.hue_go:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
       rgb_color:
       - 255
       - 217

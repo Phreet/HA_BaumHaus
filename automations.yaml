@@ -328,3 +328,36 @@
       title: BaumHaus-Guest WiFi eingeschaltet
       message: 'WLAN-SSID: BaumHaus-Guest <br> Password: test1234'
   mode: single
+- id: '1616796514306'
+  alias: SRHH - Push für die morgige Abholung
+  description: Benachrichtige über morgige Müllabfuhr
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.srhh_blaue_papiertonne_1d
+    to: '''on'''
+  condition: []
+  action:
+  - service: notify.mobile_app_sm_g955f
+    data:
+      title: Müllabfuhr
+      message: Die blaue Tonne rausstellen - morgen ist Abholung
+      data:
+        group: Müllabfuhr
+        tag: blaue-Tonne
+        sticky: 'true'
+        actions:
+        - action: HEATING_ON
+          title: Test1
+        - action: HEATING_OFF
+          title: Später erinnern
+  - service: notify.mobile_app_philipp_iphone8
+    data:
+      title: Müllabfuhr
+      message: Die blaue Tonne rausstellen - morgen ist Abholung
+      data:
+        push:
+          thread-id: Müllabfuhr
+          category: mullabfuhr
+        apns_headers:
+          apns-collapse-id: blaue-Tonne
+  mode: single
