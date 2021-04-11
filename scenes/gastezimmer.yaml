@@ -9,7 +9,7 @@
   entities:
     light.white_gastezimmer:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
 
 - id: '1611597511851'
   name: Licht - Gästezimmer - Gedimmt
@@ -17,7 +17,7 @@
   entities:
     light.white_gastezimmer:
       state: 'on'
-      brightness_pct: 30
+      brightness: 77
 
 - id: '1611597512581'
   name: Licht - Gästezimmer - Nacht
@@ -25,4 +25,4 @@
   entities:
     light.white_gastezimmer:
       state: 'on'
-      brightness_pct: 2
+      brightness: 1

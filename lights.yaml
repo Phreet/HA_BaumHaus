@@ -19,10 +19,20 @@
       - light.white_schlafzimmer_4
 
   - platform: group
+    name: Schlafzimmer
+    entities:
+      - light.schlafzimmer_deckenlicht
+
+  - platform: group
     name: Arbeitszimmer - Hue Play
     entities:
       - light.hue_play_1
       - light.hue_play_2
+
+  - platform: group
+    name: Arbeitszimmer
+    entities:
+      - light.arbeitszimmer_hue_play
 
   - platform: group
     name: Obergeschoß
@@ -132,7 +142,7 @@
     name: Esszimmer
     entities:
       - light.esszimmer_esstisch
-      - light.esszimmer_spot
+      - light.esszimmer_deckenlicht
 
   - platform: group
     name: Essbereich

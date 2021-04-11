@@ -189,75 +189,6 @@
       addon: a0d7b954_ssh
       input: /config/git_push_auto.sh
   mode: single
-- id: '1612729623230'
-  alias: Licht Schlafzimmer - Ein (Tag) - Hue Control
-  description: ''
-  trigger:
-  - device_id: 00426b488d68b3b7e4ef6392206b0cf4
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: turn_on
-  - device_id: f3edb7e81afb128c68df358f5922b769
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: button_1
-  condition:
-  - condition: time
-    after: '7:00:00'
-    before: '22:30:00'
-  action:
-  - service: scene.turn_on
-    data:
-      transition: 1
-    entity_id: scene.hue_schlafzimmer_hell
-  mode: single
-- id: '1612729898004'
-  alias: Licht Schlafzimmer - Aus - Hue Control
-  description: ''
-  trigger:
-  - device_id: 00426b488d68b3b7e4ef6392206b0cf4
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: turn_off
-  - device_id: f3edb7e81afb128c68df358f5922b769
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: button_2
-  condition: []
-  action:
-  - service: light.turn_off
-    data:
-      transition: 1
-    entity_id: light.schlafzimmer_deckenlicht
-  mode: single
-- id: '1612730147968'
-  alias: Licht Schlafzimmer - Ein (Nacht) - Hue Control
-  description: ''
-  trigger:
-  - device_id: 00426b488d68b3b7e4ef6392206b0cf4
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: turn_on
-  - device_id: f3edb7e81afb128c68df358f5922b769
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: button_1
-  condition:
-  - condition: time
-    after: '22:30:00'
-    before: '7:00:00'
-  action:
-  - service: scene.turn_on
-    data:
-      transition: 1
-    entity_id: scene.hue_schlafzimmer_ambiente
-  mode: single
 - id: '1613513334468'
   alias: Shopping - Zeige Einkaufsliste
   description: ''
@@ -296,23 +227,6 @@
       - light.baumhaus
     data:
       transition: 10
-  mode: single
-- id: '1615751682361'
-  alias: New Automation
-  description: ''
-  trigger:
-  - device_id: 481c7402cfa0e979560ab8a222c7e464
-    domain: deconz
-    platform: device
-    type: remote_button_short_press
-    subtype: button_3
-  condition: []
-  action:
-  - service: notify.alexa_media_echo_flex_treppenhaus
-    data:
-      message: Licht wird ausgeschaltet
-      data:
-        type: tts
   mode: single
 - id: '1615934558420'
   alias: FRITZ!Box 6591 - Guest WiFi angeschaltet - Push Login details

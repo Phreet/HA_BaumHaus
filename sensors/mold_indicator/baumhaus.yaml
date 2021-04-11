@@ -1,0 +1,19 @@
+################################################################################
+### Show highest value of all mold sensors in BaumHaus                       ###
+### Other values (lowest/latest/mean/median) are provided within attributes. ###
+################################################################################
+
+  - platform: min_max
+    name: Schimmelrisiko - BaumHaus
+    type: max
+    round_digits: 0
+    entity_ids:
+      - sensor.schimmelrisiko_arbeitszimmer
+      - sensor.schimmelrisiko_badezimmer_eg
+      - sensor.schimmelrisiko_badezimmer_og
+      - sensor.schimmelrisiko_esszimmer
+      - sensor.schimmelrisiko_gastezimmer
+      - sensor.schimmelrisiko_kinderzimmer
+      - sensor.schimmelrisiko_schlafzimmer
+      - sensor.schimmelrisiko_treppenhaus
+      - sensor.schimmelrisiko_wohnzimmer

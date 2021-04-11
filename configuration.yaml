@@ -147,3 +147,29 @@ ios:
             destructive: false
             behavior: 'default'
 
+
+#====================================
+#=== HACS: Entities Calendar
+#====================================
+calendar:
+  - platform: entities_calendar
+    calendars:
+      - name: Müllabfuhr
+        entities:
+          - entity: sensor.srhh_blaue_papiertonne
+            name: blaue Papiertonne
+          - entity: sensor.srhh_gelbe_wertstofftonne
+            name: gelbe Wertstofftonne/-sack
+          - entity: sensor.srhh_gruene_biotonne
+            name: grüne Biotonne
+          - entity: sensor.srhh_schwarze_restmuelltonne
+            name: schwarze Restmülltonne
+      - name: Geburtstage
+        entities:
+          - entity: sensor.anniversary_lynn_baumgarten
+            name: Lynn Geburtstag
+            start_time:
+              timestamp_in_state: true
+            end_time:
+              timestamp_in_state: true
+

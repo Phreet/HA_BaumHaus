@@ -9,16 +9,33 @@
   entities:
     light.white_schlafzimmer_1:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
     light.white_schlafzimmer_2:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
     light.white_schlafzimmer_3:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
     light.white_schlafzimmer_4:
       state: 'on'
-      brightness_pct: 100
+      brightness: 255
+
+- id: '1611585873259'
+  name: Licht - Schlafzimmer - Gedimmt
+  icon: mdi:lightbulb-group
+  entities:
+    light.white_schlafzimmer_1:
+      state: 'on'
+      brightness: 128
+    light.white_schlafzimmer_2:
+      state: 'on'
+      brightness: 128
+    light.white_schlafzimmer_3:
+      state: 'on'
+      brightness: 128
+    light.white_schlafzimmer_4:
+      state: 'on'
+      brightness: 128
 
 - id: '1611585820681'
   name: Licht - Schlafzimmer - Ambiente
@@ -30,27 +47,10 @@
       state: 'off'
     light.white_schlafzimmer_3:
       state: 'on'
-      brightness_pct: 30
+      brightness: 77
     light.white_schlafzimmer_4:
       state: 'on'
-      brightness_pct: 75
-
-- id: '1611585873259'
-  name: Licht - Schlafzimmer - Gedimmt
-  icon: mdi:lightbulb-group
-  entities:
-    light.white_schlafzimmer_1:
-      state: 'on'
-      brightness_pct: 50
-    light.white_schlafzimmer_2:
-      state: 'on'
-      brightness_pct: 50
-    light.white_schlafzimmer_3:
-      state: 'on'
-      brightness_pct: 50
-    light.white_schlafzimmer_4:
-      state: 'on'
-      brightness_pct: 50
+      brightness: 191
 
 - id: '1611585087053'
   name: Licht - Schlafzimmer - Dunkel
@@ -58,16 +58,16 @@
   entities:
     light.white_schlafzimmer_1:
       state: 'on'
-      brightness_pct: 1
+      brightness: 1
     light.white_schlafzimmer_2:
       state: 'on'
-      brightness_pct: 1
+      brightness: 1
     light.white_schlafzimmer_3:
       state: 'on'
-      brightness_pct: 1
+      brightness: 1
     light.white_schlafzimmer_4:
       state: 'on'
-      brightness_pct: 1
+      brightness: 1
 
 - id: '1611584785390'
   name: Licht - Schlafzimmer - Nacht
