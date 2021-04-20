@@ -3,13 +3,16 @@
 #====================================
 default_config:
 
+
+frontend:
+  themes: !include_dir_merge_named themes
+
 #====================================
 #=== Favicon and Page title
 #====================================
 favicon:
   title: BaumAssistant
   icon_path: /local/favicons/
-
 
 #====================================
 #=== Proxy live streams
@@ -19,24 +22,7 @@ stream:
 #====================================
 #=== Yahoo Finance (stock market)
 #====================================
-yahoofinance:
-  show_trending_icon: true
-  decimal_places: 2
-  scan_interval:
-    hours: 0.25
-  symbols:
-    - symbol: LHA.DE
-      target_currency: EUR
-    - symbol: TL0.DE
-      target_currency: EUR
-    - symbol: BTC-USD
-    - symbol: BTC-EUR
-      target_currency: EUR
-    - symbol: ETH-USD
-    - symbol: ETH-EUR
-      target_currency: EUR
-    - symbol: DOGE-USD
-
+yahoofinance: !include yahoofinance.yaml
 
 #====================================
 #=== Luftdaten: monitor air quality
@@ -52,7 +38,6 @@ luftdaten:
       - temperature
       - humidity
       - pressure
-
 
 #====================================
 #=== Synology DSM

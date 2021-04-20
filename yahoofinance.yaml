@@ -1,0 +1,21 @@
+  show_trending_icon: true
+  decimal_places: 2
+  scan_interval:
+    hours: 0.25
+  symbols:
+    - symbol: LHA.DE
+      target_currency: EUR
+    - symbol: TL0.DE
+      target_currency: EUR
+    - symbol: BTC-USD
+      target_currency: USD
+    - symbol: ETH-USD
+      target_currency: USD
+    - symbol: DOGE-USD
+      target_currency: USD
+    - symbol: AAPL
+      target_currency: USD
+    - symbol: VOW.DE
+      target_currency: EUR
+    - symbol: ^XRPLX
+      target_currency: USD
