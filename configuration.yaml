@@ -51,6 +51,13 @@ synology_dsm:
 #====================================
 #=== Argon ONE Pi4 Case and Fan
 #====================================
+spotify:
+  client_id:  !secret spotify_id
+  client_secret:  !secret spotify_secret
+
+#====================================
+#=== Argon ONE Pi4 Case and Fan
+#====================================
 argon40:
 
 #====================================

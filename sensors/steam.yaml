@@ -1,0 +1,11 @@
+################################################################################
+### Steam integration - track the online status of public Steam accounts.    ###
+### https://www.home-assistant.io/integrations/steam_online/                 ###
+################################################################################
+
+  - platform: steam_online
+    api_key: !secret steam_key
+    accounts:
+      - 76561198015183112  # Immerwach
+      - 76561198038063670  # fearAndloathin'
+      - 76561197970707049  # phReeT
