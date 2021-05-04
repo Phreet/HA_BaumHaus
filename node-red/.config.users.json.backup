@@ -10,8 +10,9 @@
                 "view-show-tips": true
             },
             "context": {
-                "flowRefresh": true
+                "flowRefresh": false
             }
-        }
+        },
+        "menu-menu-item-sidebar": false
     }
 }
