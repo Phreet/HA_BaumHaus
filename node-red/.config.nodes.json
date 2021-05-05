@@ -1082,7 +1082,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "2.28.2",
+        "version": "2.29.0",
         "local": true,
         "user": true,
         "nodes": {
@@ -1338,27 +1338,6 @@
             }
         }
     },
-    "node-red-node-email": {
-        "name": "node-red-node-email",
-        "version": "1.12.0",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "email": {
-                "name": "email",
-                "types": [
-                    "e-mail",
-                    "e-mail in",
-                    "e-mail mta"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-node-email",
-                "file": "/config/node-red/node_modules/node-red-node-email/61-email.js"
-            }
-        }
-    },
     "node-red-node-feedparser": {
         "name": "node-red-node-feedparser",
         "version": "0.2.1",
@@ -1528,7 +1507,7 @@
                     "serial request",
                     "serial-port"
                 ],
-                "enabled": true,
+                "enabled": false,
                 "local": false,
                 "user": false,
                 "module": "node-red-node-serialport",
@@ -1674,6 +1653,27 @@
                 "user": false,
                 "module": "node-red-contrib-loop-processing",
                 "file": "/config/node-red/node_modules/node-red-contrib-loop-processing/while-loop.js"
+            }
+        }
+    },
+    "node-red-node-email": {
+        "name": "node-red-node-email",
+        "version": "1.12.0",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "email": {
+                "name": "email",
+                "types": [
+                    "e-mail",
+                    "e-mail in",
+                    "e-mail mta"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-node-email",
+                "file": "/opt/node_modules/node-red-node-email/61-email.js"
             }
         }
     }
