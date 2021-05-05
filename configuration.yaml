@@ -20,6 +20,8 @@ stream:
 
 
 recorder:
+  auto_purge: true
+  purge_keep_days: 15
   exclude:
     entity_globs:
       - sensor.hvv_fahrplan_*

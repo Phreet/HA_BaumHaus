@@ -9,6 +9,7 @@
 <artwork></artwork>
 <drift>0</drift>
 <metadata>1</metadata>
+<flush>1</flush>
 </common>
 <main_log>info</main_log>
 <cast_log>info</cast_log>
@@ -17,6 +18,12 @@
 <max_players>32</max_players>
 <ports>0:0</ports>
 <binding>?</binding>
+<device>
+<udn>3f8efbee1e3574cbbebcaa67b987f452</udn>
+<name>Chromecast+</name>
+<mac>cc:cc:08:bd:c6:d9</mac>
+<enabled>1</enabled>
+</device>
 <device>
 <udn>3a52d6149c4e6d38368029da910d3314</udn>
 <name>Wohnzimmer+</name>
