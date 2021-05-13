@@ -110,7 +110,7 @@
       color_temp: 230
 
 - id: '1617323973972'
-  name: Treppenhaus - Dekoration
+  name: Licht -Treppenhaus - Dekoration
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_treppenhaus_oo:
@@ -127,7 +127,7 @@
       color_temp: 421
 
 - id: '1617323182057'
-  name: Treppenhaus - Gedimmt
+  name: Licht - Treppenhaus - Gedimmt
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_treppenhaus_oo:
@@ -148,7 +148,7 @@
       color_temp: 278
 
 - id: '1617323135444'
-  name: Treppenhaus - Nacht
+  name: Licht - Treppenhaus - Nacht
   icon: mdi:lightbulb-group
   entities:
     light.ambiance_treppenhaus_oo:
