@@ -17,7 +17,7 @@
   entities:
     light.white_gastezimmer:
       state: 'on'
-      brightness: 77
+      brightness: 102
 
 - id: '1611597512581'
   name: Licht - Gästezimmer - Nacht
@@ -25,4 +25,4 @@
   entities:
     light.white_gastezimmer:
       state: 'on'
-      brightness: 3
+      brightness: 2

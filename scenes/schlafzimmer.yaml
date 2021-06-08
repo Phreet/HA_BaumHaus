@@ -50,7 +50,7 @@
       brightness: 77
     light.white_schlafzimmer_4:
       state: 'on'
-      brightness: 191
+      brightness: 128
 
 - id: '1611585087053'
   name: Licht - Schlafzimmer - Dunkel
@@ -58,16 +58,16 @@
   entities:
     light.white_schlafzimmer_1:
       state: 'on'
-      brightness: 1
+      brightness: 2
     light.white_schlafzimmer_2:
       state: 'on'
-      brightness: 1
+      brightness: 2
     light.white_schlafzimmer_3:
       state: 'on'
-      brightness: 1
+      brightness: 2
     light.white_schlafzimmer_4:
       state: 'on'
-      brightness: 1
+      brightness: 2
 
 - id: '1611584785390'
   name: Licht - Schlafzimmer - Nacht
@@ -77,7 +77,7 @@
       state: 'off'
     light.white_schlafzimmer_2:
       state: 'on'
-      brightness_pct: 1
+      brightness: 2
     light.white_schlafzimmer_3:
       state: 'off'
     light.white_schlafzimmer_4:

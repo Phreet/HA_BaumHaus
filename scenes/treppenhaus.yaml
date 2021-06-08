@@ -163,6 +163,3 @@
       color_temp: 405
     light.ambiance_treppenhaus_uu:
       state: 'off'
-
-
-

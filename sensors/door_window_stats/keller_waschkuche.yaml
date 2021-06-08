@@ -1,0 +1,15 @@
+  - platform: history_stats
+    name: tur_keller_waschkuche_open_count_1d
+    entity_id: binary_sensor.tur_keller_waschkuche
+    state: 'on'
+    type: count
+    start: '{{ now().replace(hour=0, minute=0, second=0) }}'
+    end: '{{ now() }}'
+
+  - platform: history_stats
+    name: tur_keller_waschkuche_open_time_1d
+    entity_id: binary_sensor.tur_keller_waschkuche
+    state: 'on'
+    type: time
+    start: '{{ now().replace(hour=0, minute=0, second=0) }}'
+    end: '{{ now() }}'
