@@ -106,6 +106,7 @@
     entities:
       - light.color_wohnzimmer_b
       - light.color_wohnzimmer_w
+      - light.ambiance_wohnzimmer_g
 
   - platform: group
     name: Wohnzimmer
@@ -146,6 +147,7 @@
     entities:
       - light.esszimmer_esstisch
       - light.esszimmer_deckenlicht
+      - light.ambiance_esszimmer_stehlampe
 
   - platform: group
     name: Wohnküche
