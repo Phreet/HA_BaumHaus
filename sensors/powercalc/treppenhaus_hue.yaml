@@ -1,4 +1,4 @@
 
-  - platform: powercalc
-    entity_id: light.ambiance_treppenhaus_oo
-    name: 'Ambiance - Treppenhaus - OO - Power'
+#  - platform: powercalc
+#    entity_id: light.ambiance_treppenhaus_oo
+#    name: 'Ambiance - Treppenhaus - OO - Power'

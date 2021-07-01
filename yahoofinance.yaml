@@ -5,7 +5,7 @@
   include_fifty_day_values: false
   include_two_hundred_day_values: false
   scan_interval:
-    hours: 0.25
+    hours: 0.1
   symbols:
     - symbol: LHA.DE
       target_currency: EUR
@@ -22,4 +22,8 @@
     - symbol: VOW.DE
       target_currency: EUR
     - symbol: ^XRPLX
+      target_currency: USD
+    - symbol: RVN-USD
+      target_currency: USD
+    - symbol: ADA-USD
       target_currency: USD
