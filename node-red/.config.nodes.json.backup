@@ -867,7 +867,7 @@
     },
     "node-red-contrib-time-range-switch": {
         "name": "node-red-contrib-time-range-switch",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "local": false,
         "user": false,
         "nodes": {
@@ -1159,7 +1159,8 @@
                 "module": "node-red-dashboard",
                 "file": "/config/node-red/node_modules/node-red-dashboard/nodes/ui_spacer.js"
             }
-        }
+        },
+        "pending_version": "2.29.3"
     },
     "node-red-node-base64": {
         "name": "node-red-node-base64",
@@ -1337,7 +1338,7 @@
     },
     "node-red-node-serialport": {
         "name": "node-red-node-serialport",
-        "version": "0.14.0",
+        "version": "0.14.1",
         "local": false,
         "user": false,
         "nodes": {
@@ -1518,6 +1519,7 @@
                 "module": "node-red-node-email",
                 "file": "/config/node-red/node_modules/node-red-node-email/61-email.js"
             }
-        }
+        },
+        "pending_version": "1.12.2"
     }
 }
