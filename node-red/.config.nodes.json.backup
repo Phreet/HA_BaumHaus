@@ -924,7 +924,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "2.29.1",
+        "version": "2.29.3",
         "local": true,
         "user": true,
         "nodes": {
@@ -1160,7 +1160,7 @@
                 "file": "/config/node-red/node_modules/node-red-dashboard/nodes/ui_spacer.js"
             }
         },
-        "pending_version": "2.29.3"
+        "pending_version": "2.30.0"
     },
     "node-red-node-base64": {
         "name": "node-red-node-base64",
@@ -1457,7 +1457,8 @@
                 "module": "node-red-contrib-shelly",
                 "file": "/config/node-red/node_modules/node-red-contrib-shelly/shelly/99-shelly.js"
             }
-        }
+        },
+        "pending_version": "1.9.4"
     },
     "node-red-contrib-loop-processing": {
         "name": "node-red-contrib-loop-processing",
@@ -1502,7 +1503,7 @@
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.12.1",
+        "version": "1.12.2",
         "local": true,
         "user": true,
         "nodes": {
@@ -1520,6 +1521,6 @@
                 "file": "/config/node-red/node_modules/node-red-node-email/61-email.js"
             }
         },
-        "pending_version": "1.12.2"
+        "pending_version": "1.12.3"
     }
 }

@@ -1,5 +1,5 @@
   show_trending_icon: true
-  decimal_places: 2
+  decimal_places: 3
   include_post_values: false
   include_pre_values: false
   include_fifty_day_values: false

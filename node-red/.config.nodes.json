@@ -924,7 +924,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "2.29.3",
+        "version": "2.30.0",
         "local": true,
         "user": true,
         "nodes": {
@@ -1437,7 +1437,7 @@
     },
     "node-red-contrib-shelly": {
         "name": "node-red-contrib-shelly",
-        "version": "1.7.1",
+        "version": "1.9.4",
         "local": true,
         "user": true,
         "nodes": {
@@ -1448,7 +1448,8 @@
                     "shelly-door",
                     "shelly-roller-shutter",
                     "shelly-dimmer",
-                    "shelly-rgbw2"
+                    "shelly-rgbw2",
+                    "shelly-motion"
                 ],
                 "enabled": true,
                 "local": true,
@@ -1501,7 +1502,7 @@
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.12.2",
+        "version": "1.12.3",
         "local": true,
         "user": true,
         "nodes": {

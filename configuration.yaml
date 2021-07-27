@@ -65,14 +65,14 @@ yahoofinance: !include yahoofinance.yaml
 #====================================
 #=== Synology DSM
 #====================================
-synology_dsm:
-  - host: !secret synology_host
-    username: !secret synology_username
-    password: !secret synology_password
-    ssl: false
+#synology_dsm:
+#  - host: !secret synology_host
+#    username: !secret synology_username
+#    password: !secret synology_password
+#    ssl: false
 
 #====================================
-#=== Argon ONE Pi4 Case and Fan
+#=== Spotify account link
 #====================================
 spotify:
   client_id: !secret spotify_id

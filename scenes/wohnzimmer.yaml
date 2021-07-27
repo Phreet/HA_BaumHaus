@@ -27,7 +27,6 @@
       state: 'on'
       brightness: 255
       color_temp: 153
-      effect: stop
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -54,7 +53,6 @@
       state: 'on'
       brightness: 255
       color_temp: 233
-      effect: stop
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -76,7 +74,6 @@
       state: 'on'
       brightness: 255
       color_temp: 346
-      effect: stop
     light.ambiance_wohnzimmer_g:
       state: 'on'
       brightness: 255
@@ -109,7 +106,6 @@
       state: 'on'
       brightness: 255
       color_temp: 447
-      effect: stop
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -143,6 +139,8 @@
       - 134
       - 255
       effect: stop
+    light.ambiance_wohnzimmer_g:
+      state: 'off'
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -161,16 +159,14 @@
     light.color_wohnzimmer_b:
       state: 'off'
     light.color_wohnzimmer_w:
+      state: 'off'
+    light.ambiance_wohnzimmer_g:
       state: 'on'
-      brightness: 230
-      rgb_color:
-      - 255
-      - 183
-      - 78
-      effect: stop
+      brightness: 200
+      color_temp: 447
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness: 102
+      brightness: 90
     light.hue_go_erdgeschoss:
       state: 'on'
       brightness: 255
@@ -200,6 +196,8 @@
       - 152
       - 19
       effect: stop
+    light.ambiance_wohnzimmer_g:
+      state: 'off'
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -223,6 +221,8 @@
       state: 'on'
       brightness: 230
       effect: colorloop
+    light.ambiance_wohnzimmer_g:
+      state: 'off'
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -242,9 +242,13 @@
       state: 'off'
     light.color_wohnzimmer_w:
       state: 'off'
+    light.ambiance_wohnzimmer_g:
+      state: 'on'
+      brightness: 40
+      color_temp: 346
     light.white_wohnzimmer_decke:
       state: 'on'
-      brightness: 1
+      brightness: 2
     light.hue_go_erdgeschoss:
       state: 'off'
 
@@ -253,15 +257,13 @@
   icon: mdi:lightbulb-group
   entities:
     light.color_wohnzimmer_b:
-      state: 'on'
-      brightness: 90
-      rgb_color:
-      - 255
-      - 204
-      - 116
-      effect: stop
+      state: 'off'
     light.color_wohnzimmer_w:
       state: 'off'
+    light.ambiance_wohnzimmer_g:
+      state: 'on'
+      brightness: 110
+      color_temp: 346
     light.white_wohnzimmer_decke:
       state: 'on'
       brightness: 90
@@ -276,6 +278,8 @@
       state: 'off'
     light.color_wohnzimmer_w:
       state: 'off'
+    light.ambiance_wohnzimmer_g:
+      state: 'off'
     light.white_wohnzimmer_decke:
       state: 'on'
       brightness: 255
@@ -289,19 +293,17 @@
     light.color_wohnzimmer_b:
       state: 'on'
       brightness: 255
-      rgb_color:
-      - 255
-      - 217
-      - 145
+      color_temp: 346
       effect: stop
     light.color_wohnzimmer_w:
       state: 'on'
       brightness: 255
-      rgb_color:
-      - 255
-      - 217
-      - 145
+      color_temp: 346
       effect: stop
+    light.ambiance_wohnzimmer_g:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
@@ -315,13 +317,12 @@
       state: 'off'
     light.color_wohnzimmer_w:
       state: 'off'
+    light.ambiance_wohnzimmer_g:
+      state: 'off'
     light.white_wohnzimmer_decke:
       state: 'off'
     light.hue_go_erdgeschoss:
       state: 'on'
       brightness: 255
-      rgb_color:
-      - 255
-      - 217
-      - 145
+      color_temp: 346
       effect: stop
