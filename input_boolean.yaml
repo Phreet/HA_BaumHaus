@@ -1,10 +1,15 @@
 ################################################################################
-### Switches to hide/show details on Lovelace view                           ###
+### Input booleans                                                           ###
 ################################################################################
 
+  # Switches to hide/show details on Lovelace view
   lovelace_details_schlafzimmer:
     name: Lovelace Details - Schlafzimmer
     initial: false
     icon: 'mdi:details'
 
-################################################################################
+  # Toggle to activate/deactivate notifications being played on Amazon Echo
+  notify_echo_automations:
+    name: Play Echo notifications on automations
+    initial: true
+    icon: 'mdi:bell-ring'

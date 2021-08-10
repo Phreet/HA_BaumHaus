@@ -1,7 +1,7 @@
 ################################################################################
 ### Light scenes for Wohnzimmer                                              ###
 ### Light bulbs: Philips Hue White E27 (Bluetooth), Philips Hue Go (Gen2),   ###
-###             Philips Hue Ambiance E14 (Bluetooth)                         ###
+###              Philips Hue Ambiance E14 (Bluetooth)                        ###
 ### min_mireds: 153 - max_mireds: 500                                        ###
 ################################################################################
 
@@ -234,24 +234,6 @@
 ### Lichtszenen                                                              ###
 ################################################################################
 
-- id: '1611850639945'
-  name: Licht - Wohnzimmer - Nacht
-  icon: mdi:lightbulb-group
-  entities:
-    light.color_wohnzimmer_b:
-      state: 'off'
-    light.color_wohnzimmer_w:
-      state: 'off'
-    light.ambiance_wohnzimmer_g:
-      state: 'on'
-      brightness: 40
-      color_temp: 346
-    light.white_wohnzimmer_decke:
-      state: 'on'
-      brightness: 2
-    light.hue_go_erdgeschoss:
-      state: 'off'
-
 - id: '1611850686584'
   name: Licht - Wohnzimmer - Gedimmt
   icon: mdi:lightbulb-group
@@ -267,6 +249,24 @@
     light.white_wohnzimmer_decke:
       state: 'on'
       brightness: 90
+    light.hue_go_erdgeschoss:
+      state: 'off'
+
+- id: '1611850639945'
+  name: Licht - Wohnzimmer - Nacht
+  icon: mdi:lightbulb-group
+  entities:
+    light.color_wohnzimmer_b:
+      state: 'off'
+    light.color_wohnzimmer_w:
+      state: 'off'
+    light.ambiance_wohnzimmer_g:
+      state: 'on'
+      brightness: 40
+      color_temp: 346
+    light.white_wohnzimmer_decke:
+      state: 'on'
+      brightness: 2
     light.hue_go_erdgeschoss:
       state: 'off'
 

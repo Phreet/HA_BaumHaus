@@ -1,0 +1,56 @@
+################################################################################
+### Calculate estimated power consumption of lights and other appliances     ###
+### https://github.com/bramstroker/homeassistant-powercalc                   ###
+################################################################################
+
+  - platform: powercalc
+    entity_id: light.white_schlafzimmer_1
+    name: 'White - Schlafzimmer - 1 - Power'
+
+  - platform: powercalc
+    entity_id: light.white_schlafzimmer_2
+    name: 'White - Schlafzimmer - 2 - Power'
+
+  - platform: powercalc
+    entity_id: light.white_schlafzimmer_3
+    name: 'White - Schlafzimmer - 3 - Power'
+
+  - platform: powercalc
+    entity_id: light.white_schlafzimmer_4
+    name: 'White - Schlafzimmer - 4 - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_treppenhaus_oo
+    name: 'Ambiance - Treppenhaus - OO - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_treppenhaus_ou
+    name: 'Ambiance - Treppenhaus - OU - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_treppenhaus_uo
+    name: 'Ambiance - Treppenhaus - UO - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_treppenhaus_uu
+    name: 'Ambiance - Treppenhaus - UU - Power'
+
+  - platform: powercalc
+    entity_id: light.hue_play_1
+    name: 'Hue Play - 1 - Power'
+
+  - platform: powercalc
+    entity_id: light.hue_play_2
+    name: 'Hue Play - 2 - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_eingang_vorne
+    name: 'Ambiance - Eingang - Vorne - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_eingang_mitte
+    name: 'Ambiance - Eingang - Mitte - Power'
+
+  - platform: powercalc
+    entity_id: light.ambiance_eingang_hinten
+    name: 'Ambiance - Eingang - Hinten - Power'

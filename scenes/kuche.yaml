@@ -1,1 +1,201 @@
-[]
+################################################################################
+### Light scenes for Küche                                                   ###
+### Light bulbs: Philips Hue White Ambiance GU10 (Bluetooth),                ###
+###              Philips Hue White E27 (Bluetooth)                           ###
+### min_mireds: 153 - max_mireds: 454                                        ###
+################################################################################
+
+################################################################################
+### Farbtemperaturen                                                         ###
+################################################################################
+
+- id: '1612194786121'
+  name: Licht - Küche - Kalt
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 153
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 153
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 153
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612194786938'
+  name: Licht - Küche - Neutral
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 233
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 233
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 233
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612194746552'
+  name: Licht - Küche - Warm
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612194786763'
+  name: Licht - Küche - Entspannt
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+################################################################################
+### Lichtszenen                                                              ###
+################################################################################
+
+- id: '1612194712799'
+  name: Licht - Küche - Ambiente
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612195286760'
+  name: Licht - Küche - Dekoration
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 447
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612194283743'
+  name: Licht - Küche - Gedimmt
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 90
+      color_temp: 346
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 90
+      color_temp: 346
+    light.ambiance_kuche_spule:
+      state: 'off'
+    light.white_tresen:
+      state: 'on'
+      brightness: 90
+
+- id: '1612198788741'
+  name: Licht - Küche - Nacht
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'off'
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 40
+      color_temp: 346
+    light.ambiance_kuche_spule:
+      state: 'off'
+    light.white_tresen:
+      state: 'on'
+      brightness: 2
+
+- id: '1612191782763'
+  name: Licht - Küche - Hell (Tresen)
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'off'
+    light.ambiance_kuche_backofen:
+      state: 'off'
+    light.ambiance_kuche_spule:
+      state: 'off'
+    light.white_tresen:
+      state: 'on'
+      brightness: 255
+
+- id: '1612194185733'
+  name: Licht - Küche - Hell (Raum)
+  icon: mdi:lightbulb-group
+  entities:
+    light.ambiance_kuche_kuhlschrank:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.ambiance_kuche_backofen:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.ambiance_kuche_spule:
+      state: 'on'
+      brightness: 255
+      color_temp: 346
+    light.white_tresen:
+      state: 'off'

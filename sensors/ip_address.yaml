@@ -1,6 +1,5 @@
 ################################################################################
-### Public IPv4 and IPv6 address                                             ###
-### Scan interval: 12h                                                       ###
+### Public IPv4 and IPv6 address (Scan interval: 12h)                        ###
 ### https://www.home-assistant.io/integrations/dnsip/                        ###
 ################################################################################
 

@@ -37,3 +37,11 @@
       value_template: >
         {{ states('ssensor.epson_wf3620_ink_cyan') | int <
           states('input_number.epson_wf3620_ink_low_threshold') | int }}
+
+- platform: template
+  sensors:
+    homeasssistant_core_up_to_date:
+      friendly_name: "HomeAssistant Core - Up to date"
+      value_template: >
+        "{{ states('sensor.homeasssistant_core_nstalled_version') <
+          == states('sensor.homeasssistant_core_latest_version') }}"

@@ -98,11 +98,8 @@ binary_sensor: !include binary_sensor.yaml
 light: !include lights.yaml
 group: !include groups.yaml
 script: !include scripts.yaml
+zone: !include zones.yaml
 
-# Zones: created in the UI
-zone ui: !include zones.yaml
-# Zones: created manually in yaml
-zone manual: !include_dir_merge_list zones/
 
 # Scenes: created in the UI
 scene ui: !include scenes.yaml

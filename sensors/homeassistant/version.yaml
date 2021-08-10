@@ -1,14 +1,14 @@
-# https://community.home-assistant.io/t/updater-card-to-show-new-version/100923/7?u=mikael_kristensen
+################################################################################
+### HomeAssistant uptime sensor (time since last HomeAssistant core restart) ###
+### https://www.home-assistant.io/integrations/uptime/                       ###
+### https://community.home-assistant.io/t/updater-card-to-show-new-version/100923/7?u=mikael_kristensen
+################################################################################
 
-#==============================
-#=== Currently installed HomeAssistant Core version
-#==============================
+# Currently installed HomeAssistant Core version
   - platform: version
     name: HomeAssistant Core - Installed Version
 
-#================================
-#=== Latest available HomeAssistant Core version
-#================================
+# Latest available HomeAssistant Core version
   - platform: version
     name: HomeAssistant Core - Latest Version
     beta: false

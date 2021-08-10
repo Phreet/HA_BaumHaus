@@ -101,5 +101,5 @@
       state: 'off'
     light.ambiance_flur_hinten:
       state: 'on'
-      brightness: 38
+      brightness: 40
       color_temp: 405
