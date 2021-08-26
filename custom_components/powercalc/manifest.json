@@ -1,4 +1,7 @@
 {
+    "after_dependencies": [
+        "integration"
+    ],
     "codeowners": [
         "@bramstroker"
     ],
@@ -15,5 +18,5 @@
     "issue_tracker": "https://github.com/bramstroker/homeassistant-powercalc/issues",
     "name": "Power consumption",
     "requirements": [],
-    "version": "v0.2.7"
+    "version": "v0.4.2"
 }
